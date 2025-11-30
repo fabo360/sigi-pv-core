@@ -23,7 +23,7 @@ Este módulo **NO depende de interfaz gráfica, base de datos real ni frameworks
 ## 🧱 2. Arquitectura Implementada
 
 La estructura del módulo sigue buenas prácticas de separación de responsabilidades:
-
+```
 src/
 ├── core/
 │ ├── models.py # Entidades del dominio
@@ -32,9 +32,7 @@ src/
 │ └── errors.py # Excepciones del dominio
 └── infra/
 └── memory_repositories.py # Repositorios en memoria para pruebas
-
-yaml
-Copiar código
+```
 
 ### ✔ Principios aplicados  
 - **SRP**: Cada clase tiene una sola responsabilidad.  
