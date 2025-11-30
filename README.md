@@ -15,6 +15,7 @@ El objetivo es encapsular la lógica del negocio sin depender de:
 ✔ Únicamente se implementa la lógica fundamental del negocio, tal como lo exige el avance del proyecto.
 
 📂 Arquitectura del Proyecto
+```
 sigi-pv-core/
 │
 ├── src/
@@ -27,11 +28,15 @@ sigi-pv-core/
 │   └── infra/
 │       └── memory_repositories.py   # Repositorios temporales en memoria
 │
-├── docs/
-│   └── BPMN_Venta_Inventario.png  # Diagrama BPMN del proceso
+├── tests/
+│   ├── test_inventory.py
+│   └── test_sale.py
 │
-├── .gitignore
-└── README.md
+├── main_demo.py                   # Script de demostración funcional
+├── avance_semana3.md              # Informe de avance semana 3
+├── README.md
+└── .gitignore
+```
 
 🧠 Descripción del Módulo Core
 
